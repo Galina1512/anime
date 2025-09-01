@@ -4,7 +4,7 @@ const modalBtn = document.querySelector('.icon_search');
 const modalClose = modal.querySelector('.search-close-switch');
 const searchInput = modal.querySelector('.search-model-form')
 const input = modal.querySelector('input');
-console.log(input.value);
+// console.log(input.value);
 
 modalBtn.addEventListener('click', () => {
     modal.style.display = 'block';
